@@ -1,12 +1,5 @@
 #!/bin/bash
-for i in $(ls);do
-  echo item:$i
-done
-
-for i in `seq 1 10`;
-  do
-    echo $i
-  done
+echo Bash is starting
 
 COUNTER = 0
 while [ $COUNTER -lt 10]; do
@@ -15,7 +8,11 @@ while [ $COUNTER -lt 10]; do
 done
 
 COUNTER = 20
-untill [ $COUNTER -lt 10]; do
+untill [ $COUNTER -gt 10]; do
   echo counter $COUNTER
   let COUNTER-=1
 done
+
+
+
+
